@@ -1,0 +1,188 @@
+{
+  "generated_at": "2026-11-07T23:30:52.292Z",
+  "study_status": "awaiting_real_test_data",
+  "hasData": {
+    "participants": false,
+    "observations": false,
+    "standard_times": false,
+    "sus": false,
+    "feedback": false,
+    "errors": false
+  },
+  "groups": [
+    {
+      "id": "university",
+      "labelAr": "طلاب الجامعة",
+      "labelEn": "University Students"
+    },
+    {
+      "id": "highschool",
+      "labelAr": "طلاب الثانوية",
+      "labelEn": "High School Students"
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "T01",
+      "order": 1,
+      "name_ar": "البحث عن اختبار",
+      "name_en": "Find a Quiz",
+      "standard_time_seconds": null,
+      "groups": {
+        "university": {
+          "attempts": 0,
+          "completed": 0,
+          "incomplete": 0,
+          "completion_rate": null,
+          "avg_actual_time_seconds": null,
+          "total_errors": 0,
+          "assistance_count": 0
+        },
+        "highschool": {
+          "attempts": 0,
+          "completed": 0,
+          "incomplete": 0,
+          "completion_rate": null,
+          "avg_actual_time_seconds": null,
+          "total_errors": 0,
+          "assistance_count": 0
+        }
+      }
+    },
+    {
+      "task_id": "T02",
+      "order": 2,
+      "name_ar": "استكشاف تفاصيل الاختبار",
+      "name_en": "Inspect Quiz Details",
+      "standard_time_seconds": null,
+      "groups": {
+        "university": {
+          "attempts": 0,
+          "completed": 0,
+          "incomplete": 0,
+          "completion_rate": null,
+          "avg_actual_time_seconds": null,
+          "total_errors": 0,
+          "assistance_count": 0
+        },
+        "highschool": {
+          "attempts": 0,
+          "completed": 0,
+          "incomplete": 0,
+          "completion_rate": null,
+          "avg_actual_time_seconds": null,
+          "total_errors": 0,
+          "assistance_count": 0
+        }
+      }
+    },
+    {
+      "task_id": "T03",
+      "order": 3,
+      "name_ar": "بدء اللعب الفردي",
+      "name_en": "Start Classic Solo",
+      "standard_time_seconds": null,
+      "groups": {
+        "university": {
+          "attempts": 0,
+          "completed": 0,
+          "incomplete": 0,
+          "completion_rate": null,
+          "avg_actual_time_seconds": null,
+          "total_errors": 0,
+          "assistance_count": 0
+        },
+        "highschool": {
+          "attempts": 0,
+          "completed": 0,
+          "incomplete": 0,
+          "completion_rate": null,
+          "avg_actual_time_seconds": null,
+          "total_errors": 0,
+          "assistance_count": 0
+        }
+      }
+    },
+    {
+      "task_id": "T04",
+      "order": 4,
+      "name_ar": "الإجابة عن أسئلة الاختبار",
+      "name_en": "Answer the Questions",
+      "standard_time_seconds": null,
+      "groups": {
+        "university": {
+          "attempts": 0,
+          "completed": 0,
+          "incomplete": 0,
+          "completion_rate": null,
+          "avg_actual_time_seconds": null,
+          "total_errors": 0,
+          "assistance_count": 0
+        },
+        "highschool": {
+          "attempts": 0,
+          "completed": 0,
+          "incomplete": 0,
+          "completion_rate": null,
+          "avg_actual_time_seconds": null,
+          "total_errors": 0,
+          "assistance_count": 0
+        }
+      }
+    },
+    {
+      "task_id": "T05",
+      "order": 5,
+      "name_ar": "مراجعة النتيجة ومشاركة الاختبار",
+      "name_en": "Review Result & Share",
+      "standard_time_seconds": null,
+      "groups": {
+        "university": {
+          "attempts": 0,
+          "completed": 0,
+          "incomplete": 0,
+          "completion_rate": null,
+          "avg_actual_time_seconds": null,
+          "total_errors": 0,
+          "assistance_count": 0
+        },
+        "highschool": {
+          "attempts": 0,
+          "completed": 0,
+          "incomplete": 0,
+          "completion_rate": null,
+          "avg_actual_time_seconds": null,
+          "total_errors": 0,
+          "assistance_count": 0
+        }
+      }
+    }
+  ],
+  "perGroup": {
+    "university": {
+      "participant_count": 0,
+      "total_errors": null,
+      "avg_errors_per_participant": null,
+      "tasks_completed": null,
+      "tasks_incomplete": null,
+      "completion_rate": null
+    },
+    "highschool": {
+      "participant_count": 0,
+      "total_errors": null,
+      "avg_errors_per_participant": null,
+      "tasks_completed": null,
+      "tasks_incomplete": null,
+      "completion_rate": null
+    }
+  },
+  "totalTimePerParticipant": [],
+  "sus": {
+    "overall": null,
+    "university": null,
+    "highschool": null,
+    "responses": 0
+  },
+  "topErrorTypes": [],
+  "feedback": []
+}

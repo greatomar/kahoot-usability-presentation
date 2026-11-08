@@ -1,0 +1,42 @@
+[
+  {
+    "task_id": "T01",
+    "order": 1,
+    "task_name": "البحث عن اختبار",
+    "task_name_en": "Find a Quiz",
+    "task_description": "افتح تطبيق Kahoot على هاتفك، وانتقل إلى قسم البحث أو الاستكشاف، ثم ابحث عن اختبار يتعلق بموضوع علوم الحاسوب (Computer Science).",
+    "standard_time_seconds": null
+  },
+  {
+    "task_id": "T02",
+    "order": 2,
+    "task_name": "استكشاف تفاصيل الاختبار",
+    "task_name_en": "Inspect Quiz Details",
+    "task_description": "اختر الاختبار المحدد من نتائج البحث، وافتح صفحة تفاصيله، ثم تعرّف على عنوان الاختبار وعدد الأسئلة الموجودة فيه.",
+    "standard_time_seconds": null
+  },
+  {
+    "task_id": "T03",
+    "order": 3,
+    "task_name": "بدء اللعب الفردي",
+    "task_name_en": "Start Classic Solo",
+    "task_description": "افتح الاختبار المحدد، واستعرض أوضاع اللعب المتاحة، ثم اختر وضع اللعب الفردي (Classic Solo) لبدء الاختبار، وأدخل اسماً مستعاراً إذا طُلب منك ذلك.",
+    "standard_time_seconds": null
+  },
+  {
+    "task_id": "T04",
+    "order": 4,
+    "task_name": "الإجابة عن أسئلة الاختبار",
+    "task_name_en": "Answer the Questions",
+    "task_description": "ابدأ بالإجابة عن أسئلة الاختبار، واختر إجابة واحدة لكل سؤال، واستمر حتى تنتهي من الإجابة عن جميع الأسئلة.",
+    "standard_time_seconds": null
+  },
+  {
+    "task_id": "T05",
+    "order": 5,
+    "task_name": "مراجعة النتيجة ومشاركة الاختبار",
+    "task_name_en": "Review Result & Share",
+    "task_description": "بعد الانتهاء من الاختبار، استعرض نتيجتك النهائية، ثم ارجع إلى صفحة تفاصيل الاختبار، وافتح قائمة الخيارات، واختر المشاركة (Share)، ثم انسخ رابط الاختبار.",
+    "standard_time_seconds": null
+  }
+]

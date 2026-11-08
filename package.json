@@ -1,0 +1,19 @@
+{
+  "name": "kahoot-usability-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Usability Testing of Kahoot Android Application — HTML + PPTX presentation with a shared data layer",
+  "scripts": {
+    "metrics": "node scripts/compute-metrics.mjs",
+    "build:html": "node scripts/build-html.mjs",
+    "build:pptx": "node scripts/build-pptx.mjs",
+    "build": "node scripts/compute-metrics.mjs && node scripts/build-html.mjs && node scripts/build-pptx.mjs"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.0"
+  }
+}
