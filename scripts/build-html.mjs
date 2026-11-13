@@ -35,7 +35,10 @@ const fontCss = [
 const vars = `:root{${Object.entries(colors).map(([k, v]) => `--${k}:#${v};`).join('')}}`;
 
 const metrics = computeMetrics();
+const favicon = 'data:image/svg+xml;base64,' +
+  Buffer.from(read('assets/logos/kahoot-icon.svg').replaceAll('currentColor', '#46178F')).toString('base64');
 const html = read('src/template.html')
+  .replace('__FAVICON__', favicon)
   .replace('__FONTS__', fontCss)
   .replace('__CSS__', vars + '\n' + read('src/styles/presentation.css'))
   .replace('__SLIDES__', renderSlides(metrics))

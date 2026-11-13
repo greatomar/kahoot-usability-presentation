@@ -30,7 +30,7 @@ await page.goto('file://' + join(root, 'kahoot-usability-presentation.html'));
 await page.waitForTimeout(700);
 
 const slideCount = await page.locator('.slide').count();
-check('10 slides exist', slideCount === 10, `found ${slideCount}`);
+check('12 slides exist', slideCount === 12, `found ${slideCount}`);
 check('starts at slide 1', (await page.locator('.slide.active').getAttribute('data-title')) === 'الغلاف');
 check('RTL document', (await page.getAttribute('html', 'dir')) === 'rtl');
 
@@ -44,8 +44,8 @@ check('ArrowRight → slide 1', (await activeIndex()) === 0);
 await page.keyboard.press('Space');
 check('Space → slide 2', (await activeIndex()) === 1);
 await page.keyboard.press('End');
-check('End → slide 10', (await activeIndex()) === 9);
-check('counter shows 10 / 10', (await counter()) === '10 / 10', await counter());
+check('End → slide 12', (await activeIndex()) === 11);
+check('counter shows 12 / 12', (await counter()) === '12 / 12', await counter());
 await page.keyboard.press('Home');
 check('Home → slide 1', (await activeIndex()) === 0);
 await page.keyboard.press('ArrowRight');           // clamp at start
@@ -59,7 +59,7 @@ check('no slide content overflow', overflow === 0, `${overflow} overflowing slid
 check('no JS / console errors', errors.length === 0, errors.slice(0, 3).join(' | '));
 
 if (process.env.QA_SHOTS === '1') {
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 12; i++) {
     await page.evaluate((n) => { location.hash = '#' + n; }, i);
     await page.reload();
     await page.waitForTimeout(600);

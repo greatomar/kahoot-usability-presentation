@@ -1,1 +1,1002 @@
-[]
+[
+  {
+    "participant_id": "P01",
+    "task_id": "T05",
+    "actual_time_seconds": 28.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "تردد عند اختيار الاسم المستعار"
+  },
+  {
+    "participant_id": "P01",
+    "task_id": "T04",
+    "actual_time_seconds": 54.0,
+    "error_count": 1,
+    "error_description": "لم يجد قسم المكتبة بسهولة",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "لم يجد قسم المكتبة بسهولة"
+  },
+  {
+    "participant_id": "P01",
+    "task_id": "T03",
+    "actual_time_seconds": 95.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "تأخر في الاستجابة"
+  },
+  {
+    "participant_id": "P01",
+    "task_id": "T02",
+    "actual_time_seconds": 19.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P01",
+    "task_id": "T01",
+    "actual_time_seconds": 26.0,
+    "error_count": 1,
+    "error_description": "مسار خاطئ",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "مسار خاطئ"
+  },
+  {
+    "participant_id": "P02",
+    "task_id": "T05",
+    "actual_time_seconds": 33.0,
+    "error_count": 1,
+    "error_description": "خطأ في إدخال رمز اللعبة (PIN)",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "أخطأ في إدخال الرمز )PIN("
+  },
+  {
+    "participant_id": "P02",
+    "task_id": "T04",
+    "actual_time_seconds": 60.0,
+    "error_count": 1,
+    "error_description": "صعوبة في فهم التقرير",
+    "completion_status": "incomplete",
+    "assistance_required": true,
+    "observer_notes": "واجه صعوبة في فهم التقرير"
+  },
+  {
+    "participant_id": "P02",
+    "task_id": "T03",
+    "actual_time_seconds": 92.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "تأخر في الاستجابة"
+  },
+  {
+    "participant_id": "P02",
+    "task_id": "T02",
+    "actual_time_seconds": 18.0,
+    "error_count": 1,
+    "error_description": "مسار خاطئ",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "مسار خاطئ"
+  },
+  {
+    "participant_id": "P02",
+    "task_id": "T01",
+    "actual_time_seconds": 25.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P03",
+    "task_id": "T05",
+    "actual_time_seconds": 18.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P03",
+    "task_id": "T04",
+    "actual_time_seconds": 35.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P03",
+    "task_id": "T03",
+    "actual_time_seconds": 60.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "تأخر في الاستجابة"
+  },
+  {
+    "participant_id": "P03",
+    "task_id": "T02",
+    "actual_time_seconds": 11.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P03",
+    "task_id": "T01",
+    "actual_time_seconds": 16.0,
+    "error_count": 1,
+    "error_description": "مسار خاطئ",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "مسار خاطئ"
+  },
+  {
+    "participant_id": "P04",
+    "task_id": "T05",
+    "actual_time_seconds": 17.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P04",
+    "task_id": "T04",
+    "actual_time_seconds": 38.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "تأخر في تحديد تقرير الاختبار السابق"
+  },
+  {
+    "participant_id": "P04",
+    "task_id": "T03",
+    "actual_time_seconds": 68.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P04",
+    "task_id": "T02",
+    "actual_time_seconds": 13.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "تأخر في الاستجابة"
+  },
+  {
+    "participant_id": "P04",
+    "task_id": "T01",
+    "actual_time_seconds": 12.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P05",
+    "task_id": "T05",
+    "actual_time_seconds": 22.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "تأخر في كتابة الاسم المستعار"
+  },
+  {
+    "participant_id": "P05",
+    "task_id": "T04",
+    "actual_time_seconds": 46.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P05",
+    "task_id": "T03",
+    "actual_time_seconds": 74.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P05",
+    "task_id": "T02",
+    "actual_time_seconds": 15.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P05",
+    "task_id": "T01",
+    "actual_time_seconds": 18.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P06",
+    "task_id": "T05",
+    "actual_time_seconds": 25.0,
+    "error_count": 1,
+    "error_description": "لم ينتبه لزر الانضمام",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "لم ينتبه لزر الانضمام"
+  },
+  {
+    "participant_id": "P06",
+    "task_id": "T04",
+    "actual_time_seconds": 49.0,
+    "error_count": 1,
+    "error_description": "البحث في المكان الخطأ",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "بحث في المكان الخاطئ"
+  },
+  {
+    "participant_id": "P06",
+    "task_id": "T03",
+    "actual_time_seconds": 67.0,
+    "error_count": 1,
+    "error_description": "مسار خاطئ",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "مسار خاطئ"
+  },
+  {
+    "participant_id": "P06",
+    "task_id": "T02",
+    "actual_time_seconds": 14.0,
+    "error_count": 1,
+    "error_description": "مسار خاطئ",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "مسار خاطئ"
+  },
+  {
+    "participant_id": "P06",
+    "task_id": "T01",
+    "actual_time_seconds": 16.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P07",
+    "task_id": "T05",
+    "actual_time_seconds": 19.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P07",
+    "task_id": "T04",
+    "actual_time_seconds": 37.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P07",
+    "task_id": "T03",
+    "actual_time_seconds": 68.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P07",
+    "task_id": "T02",
+    "actual_time_seconds": 10.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P07",
+    "task_id": "T01",
+    "actual_time_seconds": 13.0,
+    "error_count": 1,
+    "error_description": "مسار خاطئ",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "مسار خاطئ"
+  },
+  {
+    "participant_id": "P08",
+    "task_id": "T05",
+    "actual_time_seconds": 24.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P08",
+    "task_id": "T04",
+    "actual_time_seconds": 52.0,
+    "error_count": 1,
+    "error_description": "صعوبة في فهم التقرير",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "واجه صعوبة في فهم التقرير"
+  },
+  {
+    "participant_id": "P08",
+    "task_id": "T03",
+    "actual_time_seconds": 77.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P08",
+    "task_id": "T02",
+    "actual_time_seconds": 15.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "تأخر في الاستجابة"
+  },
+  {
+    "participant_id": "P08",
+    "task_id": "T01",
+    "actual_time_seconds": 15.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P09",
+    "task_id": "T05",
+    "actual_time_seconds": 26.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "تردد عند اختيار الاسم المستعار"
+  },
+  {
+    "participant_id": "P09",
+    "task_id": "T04",
+    "actual_time_seconds": 44.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P09",
+    "task_id": "T03",
+    "actual_time_seconds": 72.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P09",
+    "task_id": "T02",
+    "actual_time_seconds": 13.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "تأخر في الاستجابة"
+  },
+  {
+    "participant_id": "P09",
+    "task_id": "T01",
+    "actual_time_seconds": 18.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P10",
+    "task_id": "T05",
+    "actual_time_seconds": 31.0,
+    "error_count": 1,
+    "error_description": "خطأ في إدخال رمز اللعبة (PIN)",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "أخطأ في إدخال الرمز )PIN("
+  },
+  {
+    "participant_id": "P10",
+    "task_id": "T04",
+    "actual_time_seconds": 58.0,
+    "error_count": 1,
+    "error_description": "لم يجد قسم المكتبة بسهولة",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "لم يجد قسم المكتبة بسهولة"
+  },
+  {
+    "participant_id": "P10",
+    "task_id": "T03",
+    "actual_time_seconds": 66.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P10",
+    "task_id": "T02",
+    "actual_time_seconds": 14.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "تأخر في الاستجابة"
+  },
+  {
+    "participant_id": "P10",
+    "task_id": "T01",
+    "actual_time_seconds": 20.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "تأخر في الاستجابة"
+  },
+  {
+    "participant_id": "P11",
+    "task_id": "T05",
+    "actual_time_seconds": 21.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P11",
+    "task_id": "T04",
+    "actual_time_seconds": 42.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P11",
+    "task_id": "T03",
+    "actual_time_seconds": 62.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P11",
+    "task_id": "T02",
+    "actual_time_seconds": 16.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P11",
+    "task_id": "T01",
+    "actual_time_seconds": 20.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P12",
+    "task_id": "T05",
+    "actual_time_seconds": 23.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P12",
+    "task_id": "T04",
+    "actual_time_seconds": 48.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "تأخر في تحديد تقرير الاختبار السابق"
+  },
+  {
+    "participant_id": "P12",
+    "task_id": "T03",
+    "actual_time_seconds": 79.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P12",
+    "task_id": "T02",
+    "actual_time_seconds": 15.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P12",
+    "task_id": "T01",
+    "actual_time_seconds": 17.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P13",
+    "task_id": "T05",
+    "actual_time_seconds": 19.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P13",
+    "task_id": "T04",
+    "actual_time_seconds": 39.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P13",
+    "task_id": "T03",
+    "actual_time_seconds": 52.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "تأخر في الاستجابة"
+  },
+  {
+    "participant_id": "P13",
+    "task_id": "T02",
+    "actual_time_seconds": 11.0,
+    "error_count": 1,
+    "error_description": "مسار خاطئ",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "مسار خاطئ"
+  },
+  {
+    "participant_id": "P13",
+    "task_id": "T01",
+    "actual_time_seconds": 15.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P14",
+    "task_id": "T05",
+    "actual_time_seconds": 16.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P14",
+    "task_id": "T04",
+    "actual_time_seconds": 36.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P14",
+    "task_id": "T03",
+    "actual_time_seconds": 55.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P14",
+    "task_id": "T02",
+    "actual_time_seconds": 10.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P14",
+    "task_id": "T01",
+    "actual_time_seconds": 17.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P15",
+    "task_id": "T05",
+    "actual_time_seconds": 20.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P15",
+    "task_id": "T04",
+    "actual_time_seconds": 41.0,
+    "error_count": 1,
+    "error_description": "البحث في المكان الخطأ",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "بحث في المكان الخاطئ"
+  },
+  {
+    "participant_id": "P15",
+    "task_id": "T03",
+    "actual_time_seconds": 52.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P15",
+    "task_id": "T02",
+    "actual_time_seconds": 10.0,
+    "error_count": 1,
+    "error_description": "مسار خاطئ",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "مسار خاطئ"
+  },
+  {
+    "participant_id": "P15",
+    "task_id": "T01",
+    "actual_time_seconds": 13.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P16",
+    "task_id": "T05",
+    "actual_time_seconds": 15.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P16",
+    "task_id": "T04",
+    "actual_time_seconds": 31.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P16",
+    "task_id": "T03",
+    "actual_time_seconds": 45.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P16",
+    "task_id": "T02",
+    "actual_time_seconds": 9.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P16",
+    "task_id": "T01",
+    "actual_time_seconds": 11.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P17",
+    "task_id": "T05",
+    "actual_time_seconds": 27.0,
+    "error_count": 1,
+    "error_description": "لم ينتبه لزر الانضمام",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "لم ينتبه لزر الانضمام"
+  },
+  {
+    "participant_id": "P17",
+    "task_id": "T04",
+    "actual_time_seconds": 53.0,
+    "error_count": 1,
+    "error_description": "صعوبة في فهم التقرير",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "واجه صعوبة في فهم التقرير"
+  },
+  {
+    "participant_id": "P17",
+    "task_id": "T03",
+    "actual_time_seconds": 78.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P17",
+    "task_id": "T02",
+    "actual_time_seconds": 12.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P17",
+    "task_id": "T01",
+    "actual_time_seconds": 18.0,
+    "error_count": 1,
+    "error_description": "مسار خاطئ",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "مسار خاطئ"
+  },
+  {
+    "participant_id": "P18",
+    "task_id": "T05",
+    "actual_time_seconds": 22.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P18",
+    "task_id": "T04",
+    "actual_time_seconds": 47.0,
+    "error_count": 1,
+    "error_description": "لم يجد قسم المكتبة بسهولة",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "لم يجد قسم المكتبة بسهولة"
+  },
+  {
+    "participant_id": "P18",
+    "task_id": "T03",
+    "actual_time_seconds": 70.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P18",
+    "task_id": "T02",
+    "actual_time_seconds": 14.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P18",
+    "task_id": "T01",
+    "actual_time_seconds": 18.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P19",
+    "task_id": "T05",
+    "actual_time_seconds": 29.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": "تأخر في كتابة الاسم المستعار"
+  },
+  {
+    "participant_id": "P19",
+    "task_id": "T04",
+    "actual_time_seconds": 60.0,
+    "error_count": 1,
+    "error_description": "البحث في المكان الخطأ",
+    "completion_status": "incomplete",
+    "assistance_required": true,
+    "observer_notes": "بحث في المكان الخاطئ"
+  },
+  {
+    "participant_id": "P19",
+    "task_id": "T03",
+    "actual_time_seconds": 76.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P19",
+    "task_id": "T02",
+    "actual_time_seconds": 13.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P19",
+    "task_id": "T01",
+    "actual_time_seconds": 18.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P20",
+    "task_id": "T05",
+    "actual_time_seconds": 15.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P20",
+    "task_id": "T04",
+    "actual_time_seconds": 32.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P20",
+    "task_id": "T03",
+    "actual_time_seconds": 38.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  },
+  {
+    "participant_id": "P20",
+    "task_id": "T02",
+    "actual_time_seconds": 9.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": true,
+    "observer_notes": "تأخر في الاستجابة"
+  },
+  {
+    "participant_id": "P20",
+    "task_id": "T01",
+    "actual_time_seconds": 9.0,
+    "error_count": 0,
+    "error_description": "",
+    "completion_status": "completed",
+    "assistance_required": false,
+    "observer_notes": null
+  }
+]

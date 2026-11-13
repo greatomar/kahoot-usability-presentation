@@ -1,188 +1,1242 @@
 {
-  "generated_at": "2026-11-07T23:30:52.292Z",
-  "study_status": "awaiting_real_test_data",
+  "generated_at": "2026-11-13T18:27:47.616Z",
+  "study_status": "data_collected",
   "hasData": {
-    "participants": false,
-    "observations": false,
+    "participants": true,
+    "observations": true,
     "standard_times": false,
-    "sus": false,
+    "sus": true,
     "feedback": false,
-    "errors": false
+    "errors": true
   },
   "groups": [
-    {
-      "id": "university",
-      "labelAr": "طلاب الجامعة",
-      "labelEn": "University Students"
-    },
     {
       "id": "highschool",
       "labelAr": "طلاب الثانوية",
       "labelEn": "High School Students"
+    },
+    {
+      "id": "middle",
+      "labelAr": "طلاب المتوسط",
+      "labelEn": "Middle School Students"
     }
   ],
   "tasks": [
     {
       "task_id": "T01",
       "order": 1,
-      "name_ar": "البحث عن اختبار",
-      "name_en": "Find a Quiz",
+      "name_ar": "البحث عن اختبار تعليمي",
+      "name_en": "Find an Educational Quiz",
+      "description": "البحث عن اختبار مناسب في موضوع الحاسوب باستخدام التطبيق.",
+      "scenario": "تريد مراجعة معلوماتك في مادة الحاسب، ابحث عن اختبار مناسب باستخدام التطبيق.",
+      "steps": [
+        "افتح التطبيق على هاتفك.",
+        "انتقل إلى قسم Discover.",
+        "ابحث عن اختبار متعلق بموضوع الحاسوب."
+      ],
+      "measure": "سهولة الوصول إلى الاختبارات والبحث عنها.",
       "standard_time_seconds": null,
       "groups": {
-        "university": {
-          "attempts": 0,
-          "completed": 0,
-          "incomplete": 0,
-          "completion_rate": null,
-          "avg_actual_time_seconds": null,
-          "total_errors": 0,
-          "assistance_count": 0
-        },
         "highschool": {
-          "attempts": 0,
-          "completed": 0,
+          "attempts": 13,
+          "completed": 13,
           "incomplete": 0,
-          "completion_rate": null,
-          "avg_actual_time_seconds": null,
-          "total_errors": 0,
-          "assistance_count": 0
+          "completion_rate": 100,
+          "avg_actual_time_seconds": 14.8,
+          "total_errors": 2,
+          "assistance_count": 2
+        },
+        "middle": {
+          "attempts": 7,
+          "completed": 7,
+          "incomplete": 0,
+          "completion_rate": 100,
+          "avg_actual_time_seconds": 20.4,
+          "total_errors": 2,
+          "assistance_count": 1
         }
       }
     },
     {
       "task_id": "T02",
       "order": 2,
-      "name_ar": "استكشاف تفاصيل الاختبار",
-      "name_en": "Inspect Quiz Details",
+      "name_ar": "اختيار اختبار مناسب",
+      "name_en": "Choose a Suitable Quiz",
+      "description": "اختيار اختبار «ثقافة تكنولوجية» واستعراض تفاصيله قبل البدء.",
+      "scenario": "تريد اختيار اختبار مناسب لمراجعة مادة الحاسب، والاختبار المطلوب باسم «ثقافة تكنولوجية».",
+      "steps": [
+        "استعرض نتائج البحث.",
+        "افتح الاختبار.",
+        "تعرّف على محتواه وعدد أسئلته وتفاصيله."
+      ],
+      "measure": "وضوح المعلومات وسهولة اختيار المحتوى.",
       "standard_time_seconds": null,
       "groups": {
-        "university": {
-          "attempts": 0,
-          "completed": 0,
-          "incomplete": 0,
-          "completion_rate": null,
-          "avg_actual_time_seconds": null,
-          "total_errors": 0,
-          "assistance_count": 0
-        },
         "highschool": {
-          "attempts": 0,
-          "completed": 0,
+          "attempts": 13,
+          "completed": 13,
           "incomplete": 0,
-          "completion_rate": null,
-          "avg_actual_time_seconds": null,
-          "total_errors": 0,
-          "assistance_count": 0
+          "completion_rate": 100,
+          "avg_actual_time_seconds": 11.9,
+          "total_errors": 2,
+          "assistance_count": 3
+        },
+        "middle": {
+          "attempts": 7,
+          "completed": 7,
+          "incomplete": 0,
+          "completion_rate": 100,
+          "avg_actual_time_seconds": 15.1,
+          "total_errors": 2,
+          "assistance_count": 3
         }
       }
     },
     {
       "task_id": "T03",
       "order": 3,
-      "name_ar": "بدء اللعب الفردي",
-      "name_en": "Start Classic Solo",
+      "name_ar": "بدء الاختبار والإجابة",
+      "name_en": "Start the Quiz & Answer",
+      "description": "بدء الاختبار في وضع اللعب الفردي الكلاسيكي والإجابة عن جميع الأسئلة.",
+      "scenario": "تريد بدء الاختبار والإجابة عن أسئلته حتى النهاية.",
+      "steps": [
+        "ابدأ الاختبار باستخدام وضع اللعب الفردي الكلاسيكي.",
+        "اقرأ السؤال الأول واختر إجابتك.",
+        "أكمل الإجابة عن الأسئلة حتى نهاية الاختبار."
+      ],
+      "measure": "سهولة التفاعل ووضوح الأسئلة وأزرار الإجابة.",
       "standard_time_seconds": null,
       "groups": {
-        "university": {
-          "attempts": 0,
-          "completed": 0,
-          "incomplete": 0,
-          "completion_rate": null,
-          "avg_actual_time_seconds": null,
-          "total_errors": 0,
-          "assistance_count": 0
-        },
         "highschool": {
-          "attempts": 0,
-          "completed": 0,
+          "attempts": 13,
+          "completed": 13,
           "incomplete": 0,
-          "completion_rate": null,
-          "avg_actual_time_seconds": null,
+          "completion_rate": 100,
+          "avg_actual_time_seconds": 62.6,
           "total_errors": 0,
-          "assistance_count": 0
+          "assistance_count": 1
+        },
+        "middle": {
+          "attempts": 7,
+          "completed": 7,
+          "incomplete": 0,
+          "completion_rate": 100,
+          "avg_actual_time_seconds": 76,
+          "total_errors": 1,
+          "assistance_count": 2
         }
       }
     },
     {
       "task_id": "T04",
       "order": 4,
-      "name_ar": "الإجابة عن أسئلة الاختبار",
-      "name_en": "Answer the Questions",
+      "name_ar": "الاستفادة من الأخطاء",
+      "name_en": "Learn from Mistakes",
+      "description": "الوصول إلى تقارير الاختبار السابق ومراجعة الأسئلة والإجابات.",
+      "scenario": "تريد الاستفادة من الاختبار لتحسين مستواك.",
+      "steps": [
+        "اذهب إلى المكتبة.",
+        "حدد الاختبار الذي قمت به.",
+        "استعرض من خلال التقارير الأسئلة والإجابات."
+      ],
+      "measure": "قدرة الطالب على الاستفادة من التغذية الراجعة.",
       "standard_time_seconds": null,
       "groups": {
-        "university": {
-          "attempts": 0,
-          "completed": 0,
-          "incomplete": 0,
-          "completion_rate": null,
-          "avg_actual_time_seconds": null,
-          "total_errors": 0,
-          "assistance_count": 0
-        },
         "highschool": {
-          "attempts": 0,
-          "completed": 0,
-          "incomplete": 0,
-          "completion_rate": null,
-          "avg_actual_time_seconds": null,
-          "total_errors": 0,
-          "assistance_count": 0
+          "attempts": 13,
+          "completed": 12,
+          "incomplete": 1,
+          "completion_rate": 92.3,
+          "avg_actual_time_seconds": 40.2,
+          "total_errors": 4,
+          "assistance_count": 2
+        },
+        "middle": {
+          "attempts": 7,
+          "completed": 6,
+          "incomplete": 1,
+          "completion_rate": 85.7,
+          "avg_actual_time_seconds": 50,
+          "total_errors": 5,
+          "assistance_count": 4
         }
       }
     },
     {
       "task_id": "T05",
       "order": 5,
-      "name_ar": "مراجعة النتيجة ومشاركة الاختبار",
-      "name_en": "Review Result & Share",
+      "name_ar": "الانضمام إلى غرفة مباشرة",
+      "name_en": "Join a Live Room",
+      "description": "الانضمام إلى غرفة مباشرة باستخدام رمز اللعبة والاسم المستعار.",
+      "scenario": "تريد الانضمام إلى مسابقة مباشرة أطلقها معلمك.",
+      "steps": [
+        "افتح صفحة الانضمام إلى غرفة في التطبيق من هاتفك.",
+        "أدخل رمز اللعبة (Game PIN) الذي سيعطيك إياه المراقب.",
+        "أدخل اسمًا مستعارًا (Nickname) وانضم إلى غرفة الانتظار."
+      ],
+      "measure": "سهولة الانضمام ووضوح إدخال رمز اللعبة والاسم المستعار.",
       "standard_time_seconds": null,
       "groups": {
-        "university": {
-          "attempts": 0,
-          "completed": 0,
+        "highschool": {
+          "attempts": 13,
+          "completed": 13,
           "incomplete": 0,
-          "completion_rate": null,
-          "avg_actual_time_seconds": null,
+          "completion_rate": 100,
+          "avg_actual_time_seconds": 19.9,
           "total_errors": 0,
           "assistance_count": 0
         },
-        "highschool": {
-          "attempts": 0,
-          "completed": 0,
+        "middle": {
+          "attempts": 7,
+          "completed": 7,
           "incomplete": 0,
-          "completion_rate": null,
-          "avg_actual_time_seconds": null,
-          "total_errors": 0,
-          "assistance_count": 0
+          "completion_rate": 100,
+          "avg_actual_time_seconds": 27.3,
+          "total_errors": 4,
+          "assistance_count": 1
         }
       }
     }
   ],
   "perGroup": {
-    "university": {
-      "participant_count": 0,
-      "total_errors": null,
-      "avg_errors_per_participant": null,
-      "tasks_completed": null,
-      "tasks_incomplete": null,
-      "completion_rate": null
-    },
     "highschool": {
-      "participant_count": 0,
-      "total_errors": null,
-      "avg_errors_per_participant": null,
-      "tasks_completed": null,
-      "tasks_incomplete": null,
-      "completion_rate": null
+      "participant_count": 13,
+      "age_min": 15,
+      "age_max": 18,
+      "avg_age": 16.2,
+      "total_errors": 8,
+      "avg_errors_per_participant": 0.6,
+      "tasks_completed": 64,
+      "tasks_incomplete": 1,
+      "completion_rate": 98.5
+    },
+    "middle": {
+      "participant_count": 7,
+      "age_min": 12,
+      "age_max": 14,
+      "avg_age": 13.3,
+      "total_errors": 14,
+      "avg_errors_per_participant": 2,
+      "tasks_completed": 34,
+      "tasks_incomplete": 1,
+      "completion_rate": 97.1
     }
   },
-  "totalTimePerParticipant": [],
+  "totalTimePerParticipant": [
+    {
+      "participant_id": "P01",
+      "group": "middle",
+      "total_time_seconds": 222
+    },
+    {
+      "participant_id": "P02",
+      "group": "middle",
+      "total_time_seconds": 228
+    },
+    {
+      "participant_id": "P03",
+      "group": "highschool",
+      "total_time_seconds": 140
+    },
+    {
+      "participant_id": "P04",
+      "group": "highschool",
+      "total_time_seconds": 148
+    },
+    {
+      "participant_id": "P05",
+      "group": "highschool",
+      "total_time_seconds": 175
+    },
+    {
+      "participant_id": "P06",
+      "group": "middle",
+      "total_time_seconds": 171
+    },
+    {
+      "participant_id": "P07",
+      "group": "highschool",
+      "total_time_seconds": 147
+    },
+    {
+      "participant_id": "P08",
+      "group": "highschool",
+      "total_time_seconds": 183
+    },
+    {
+      "participant_id": "P09",
+      "group": "middle",
+      "total_time_seconds": 173
+    },
+    {
+      "participant_id": "P10",
+      "group": "middle",
+      "total_time_seconds": 189
+    },
+    {
+      "participant_id": "P11",
+      "group": "middle",
+      "total_time_seconds": 161
+    },
+    {
+      "participant_id": "P12",
+      "group": "highschool",
+      "total_time_seconds": 182
+    },
+    {
+      "participant_id": "P13",
+      "group": "highschool",
+      "total_time_seconds": 136
+    },
+    {
+      "participant_id": "P14",
+      "group": "highschool",
+      "total_time_seconds": 134
+    },
+    {
+      "participant_id": "P15",
+      "group": "highschool",
+      "total_time_seconds": 136
+    },
+    {
+      "participant_id": "P16",
+      "group": "highschool",
+      "total_time_seconds": 111
+    },
+    {
+      "participant_id": "P17",
+      "group": "middle",
+      "total_time_seconds": 188
+    },
+    {
+      "participant_id": "P18",
+      "group": "highschool",
+      "total_time_seconds": 171
+    },
+    {
+      "participant_id": "P19",
+      "group": "highschool",
+      "total_time_seconds": 196
+    },
+    {
+      "participant_id": "P20",
+      "group": "highschool",
+      "total_time_seconds": 103
+    }
+  ],
+  "participantResults": [
+    {
+      "participant_id": "P01",
+      "group": "middle",
+      "age": 12,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 26,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 19,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 95,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 54,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 28,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 2,
+      "sus": 52.5
+    },
+    {
+      "participant_id": "P02",
+      "group": "middle",
+      "age": 12,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 25,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 18,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 92,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 60,
+          "completion_status": "incomplete",
+          "error_count": 1,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 33,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": true
+        }
+      ],
+      "total_errors": 3,
+      "sus": 30
+    },
+    {
+      "participant_id": "P03",
+      "group": "highschool",
+      "age": 18,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 16,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 11,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 60,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 35,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 18,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 1,
+      "sus": 92.5
+    },
+    {
+      "participant_id": "P04",
+      "group": "highschool",
+      "age": 18,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 12,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 13,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 68,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 38,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 17,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 0,
+      "sus": 90
+    },
+    {
+      "participant_id": "P05",
+      "group": "highschool",
+      "age": 16,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 18,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 15,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 74,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 46,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 22,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 0,
+      "sus": 77.5
+    },
+    {
+      "participant_id": "P06",
+      "group": "middle",
+      "age": 14,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 16,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 14,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 67,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 49,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 25,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 4,
+      "sus": 75
+    },
+    {
+      "participant_id": "P07",
+      "group": "highschool",
+      "age": 15,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 13,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 10,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 68,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 37,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 19,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 1,
+      "sus": 95
+    },
+    {
+      "participant_id": "P08",
+      "group": "highschool",
+      "age": 16,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 15,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 15,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 77,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 52,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 24,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 1,
+      "sus": 67.5
+    },
+    {
+      "participant_id": "P09",
+      "group": "middle",
+      "age": 13,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 18,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 13,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 72,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 44,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 26,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 0,
+      "sus": 75
+    },
+    {
+      "participant_id": "P10",
+      "group": "middle",
+      "age": 14,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 20,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 14,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 66,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 58,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 31,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 2,
+      "sus": 52.5
+    },
+    {
+      "participant_id": "P11",
+      "group": "middle",
+      "age": 14,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 20,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 16,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 62,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 42,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 21,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 0,
+      "sus": 82.5
+    },
+    {
+      "participant_id": "P12",
+      "group": "highschool",
+      "age": 15,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 17,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 15,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 79,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 48,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 23,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 0,
+      "sus": 75
+    },
+    {
+      "participant_id": "P13",
+      "group": "highschool",
+      "age": 17,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 15,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 11,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 52,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 39,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 19,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 1,
+      "sus": 90
+    },
+    {
+      "participant_id": "P14",
+      "group": "highschool",
+      "age": 15,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 17,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 10,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 55,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 36,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 16,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 0,
+      "sus": 95
+    },
+    {
+      "participant_id": "P15",
+      "group": "highschool",
+      "age": 16,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 13,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 10,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 52,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 41,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 20,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 2,
+      "sus": 90
+    },
+    {
+      "participant_id": "P16",
+      "group": "highschool",
+      "age": 17,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 11,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 9,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 45,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 31,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 15,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 0,
+      "sus": 100
+    },
+    {
+      "participant_id": "P17",
+      "group": "middle",
+      "age": 14,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 18,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 12,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 78,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 53,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 27,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 3,
+      "sus": 65
+    },
+    {
+      "participant_id": "P18",
+      "group": "highschool",
+      "age": 16,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 18,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 14,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 70,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 47,
+          "completion_status": "completed",
+          "error_count": 1,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 22,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 1,
+      "sus": 75
+    },
+    {
+      "participant_id": "P19",
+      "group": "highschool",
+      "age": 15,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 18,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 13,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 76,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 60,
+          "completion_status": "incomplete",
+          "error_count": 1,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 29,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 1,
+      "sus": 50
+    },
+    {
+      "participant_id": "P20",
+      "group": "highschool",
+      "age": 17,
+      "tasks": [
+        {
+          "task_id": "T01",
+          "time_seconds": 9,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T02",
+          "time_seconds": 9,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": true
+        },
+        {
+          "task_id": "T03",
+          "time_seconds": 38,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T04",
+          "time_seconds": 32,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        },
+        {
+          "task_id": "T05",
+          "time_seconds": 15,
+          "completion_status": "completed",
+          "error_count": 0,
+          "assistance_required": false
+        }
+      ],
+      "total_errors": 0,
+      "sus": 100
+    }
+  ],
   "sus": {
-    "overall": null,
-    "university": null,
-    "highschool": null,
-    "responses": 0
+    "overall": 76.5,
+    "highschool": 84.4,
+    "middle": 61.8,
+    "responses": 20
   },
-  "topErrorTypes": [],
+  "topErrorTypes": [
+    {
+      "description": "مسار خاطئ",
+      "count": 9
+    },
+    {
+      "description": "لم يجد قسم المكتبة بسهولة",
+      "count": 3
+    },
+    {
+      "description": "صعوبة في فهم التقرير",
+      "count": 3
+    },
+    {
+      "description": "البحث في المكان الخطأ",
+      "count": 3
+    },
+    {
+      "description": "خطأ في إدخال رمز اللعبة (PIN)",
+      "count": 2
+    },
+    {
+      "description": "لم ينتبه لزر الانضمام",
+      "count": 2
+    }
+  ],
   "feedback": []
 }

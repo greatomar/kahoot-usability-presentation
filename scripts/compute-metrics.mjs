@@ -15,8 +15,8 @@ const dataDir = process.env.KAHOOT_DATA_DIR ?? join(root, 'data');
 const load = (name) => JSON.parse(readFileSync(join(dataDir, name), 'utf8'));
 
 export const GROUPS = [
-  { id: 'university', labelAr: 'طلاب الجامعة', labelEn: 'University Students' },
   { id: 'highschool', labelAr: 'طلاب الثانوية', labelEn: 'High School Students' },
+  { id: 'middle', labelAr: 'طلاب المتوسط', labelEn: 'Middle School Students' },
 ];
 
 export function susScore(responses) {
@@ -45,6 +45,10 @@ export function computeMetrics() {
       order: t.order,
       name_ar: t.task_name,
       name_en: t.task_name_en,
+      description: t.task_description ?? '',
+      scenario: t.scenario ?? '',
+      steps: Array.isArray(t.steps) ? t.steps : [],
+      measure: t.measure ?? '',
       standard_time_seconds: t.standard_time_seconds ?? null,
       groups: {},
     };
@@ -76,8 +80,12 @@ export function computeMetrics() {
     const obs = observations.filter((o) => ids.has(o.participant_id));
     const totalErrors = obs.reduce((a, o) => a + (o.error_count ?? 0), 0);
     const completed = obs.filter((o) => o.completion_status === 'completed').length;
+    const ages = members.map((p) => p.age).filter((v) => typeof v === 'number');
     perGroup[g.id] = {
       participant_count: members.length,
+      age_min: ages.length ? Math.min(...ages) : null,
+      age_max: ages.length ? Math.max(...ages) : null,
+      avg_age: ages.length ? Math.round((ages.reduce((a, b) => a + b, 0) / ages.length) * 10) / 10 : null,
       total_errors: obs.length ? totalErrors : null,
       avg_errors_per_participant: members.length && obs.length
         ? Math.round((totalErrors / members.length) * 10) / 10
@@ -108,10 +116,32 @@ export function computeMetrics() {
   const avg = (arr) => (arr.length ? Math.round((arr.reduce((a, b) => a + b, 0) / arr.length) * 10) / 10 : null);
   const sus = {
     overall: avg(validScores.map((s) => s.score)),
-    university: avg(validScores.filter((s) => s.group === 'university').map((s) => s.score)),
     highschool: avg(validScores.filter((s) => s.group === 'highschool').map((s) => s.score)),
+    middle: avg(validScores.filter((s) => s.group === 'middle').map((s) => s.score)),
     responses: validScores.length,
   };
+
+  const susById = new Map(susPerParticipant.map((s) => [s.participant_id, s.score]));
+  const participantResults = participants.map((p) => {
+    const rows = tasks.map((t) => {
+      const o = observations.find((o) => o.participant_id === p.participant_id && o.task_id === t.task_id);
+      return {
+        task_id: t.task_id,
+        time_seconds: o?.actual_time_seconds ?? null,
+        completion_status: o?.completion_status ?? null,
+        error_count: o?.error_count ?? 0,
+        assistance_required: o?.assistance_required ?? false,
+      };
+    });
+    return {
+      participant_id: p.participant_id,
+      group: p.group,
+      age: p.age ?? null,
+      tasks: rows,
+      total_errors: rows.reduce((a, r) => a + r.error_count, 0),
+      sus: susById.get(p.participant_id) ?? null,
+    };
+  });
 
   const errorDescriptions = {};
   for (const o of observations) {
@@ -136,6 +166,7 @@ export function computeMetrics() {
     tasks: perTask,
     perGroup,
     totalTimePerParticipant,
+    participantResults,
     sus,
     topErrorTypes: Object.entries(errorDescriptions)
       .sort((a, b) => b[1] - a[1])
