@@ -1,98 +1,245 @@
-# Usability Testing of Kahoot Android Application
+# Kahoot Android Usability Study
 
-عرض تقديمي أكاديمي لاختبار قابلية استخدام تطبيق **Kahoot على Android**، بمقارنة بين **طلاب الثانوية** و**طلاب المتوسط** — بهوية Hybrid (Kahoot × Editorial)، ونسختين متزامنتين من مصدر بيانات واحد.
+### Usability Testing of the Kahoot Android Application
 
-**حالة الدراسة:** نُفذت مع **20 مشاركاً** (13 ثانوية · 7 متوسط) و**100 محاولة** و**20 استجابة SUS**. نتائج HTML وPPTX مبنية من بيانات `data/` الفعلية.
+An academic HCI presentation in **Arabic (RTL)** comparing the usability of the **Kahoot Android app** between **high-school** and **middle-school** students. Built as **two synchronized deliverables** — a fully offline HTML deck and a native, editable PowerPoint deck — from one data source.
+
+<p align="center">
+  <img src="previews/montage-html.png" alt="Overview of the 12 HTML slides" width="100%">
+</p>
+
+<p align="center">
+  <sub>HTML deck — 12 slides · Kahoot × Editorial theme · Arabic RTL</sub>
+</p>
 
 ---
 
-## التشغيل السريع
+## At a glance
 
-| النسخة | الملف | التشغيل |
-|---|---|---|
-| HTML (الأساسية) | `kahoot-usability-presentation.html` | افتحه مباشرة في أي متصفح — ملف واحد مستقل يعمل **دون إنترنت** (الخطوط والأصول مضمنة) |
-| PowerPoint | `kahoot-usability-presentation.pptx` | افتحه في PowerPoint أو LibreOffice — كل النصوص والأشكال والجداول عناصر أصلية قابلة للتحرير |
-
-**التنقل في HTML:** الأسهم ← → (اليسار = التالي في اتجاه RTL) · مسافة (Shift+مسافة للرجوع) · Home / End · النقر على نصفي الشاشة · السحب باللمس · رابط مباشر لأي شريحة عبر `#رقم` (مثال `…html#6`).
-
-## الشرائح الاثنتا عشرة
-
-1. الغلاف — عنوان عربي + شعار Kahoot
-2. Inside the App — أربع لقطات حقيقية من تطبيق Android
-3. About the App — تعريف التطبيق + الشعار داخل العنوان
-4. Participants — طلاب الثانوية وطلاب المتوسط (13 · 7)
-5. Methodology — الخطوات السبع + آلية الوقت والمهلة (5–10 ثوانٍ)
-6. Testing Tasks — المهام الخمس + السيناريو والخطوات وما نقيسه
-7. Results — High School — جدول نتائج الثانوية (الزمن · الإكمال · الأخطاء · SUS)
-8. Results — Middle School — جدول نتائج المتوسط
-9. Analysis — لوحة موحدة للإكمال والأوقات والأخطاء
-10. SUS & Feedback — نتائج SUS الفعلية (76.5 عام)
-11. Problems & Conclusion — مشكلات وتوصيات واستنتاج من البيانات
-12. Team — أسماء أعضاء الفريق
-
-## النسخة النهائية والمقارنة
-
-| الملف | الوصف |
+| | |
 |---|---|
-| `final/kahoot-usability-presentation-final.html` | النسخة النهائية من HTML (مرجع التصميم) |
-| `final/kahoot-usability-presentation-final.pptx` | النسخة النهائية من PPTX بعد المراجعة في DeckCraft |
-| `comparison/comparison-montage.png` | لوحة مقارنة HTML مقابل PPTX لكل الشرائح |
-| `comparison/side-by-side/` | صورة مقارنة لكل شريحة (HTML يسار · PPTX يمين) |
-| `comparison/README.md` | تقرير الفروقات والإصلاحات |
+| **Study** | Usability testing of Kahoot on Android |
+| **Groups** | 13 high-school students · 7 middle-school students |
+| **Data collected** | 20 participants · 100 task attempts · 20 SUS responses |
+| **Completion** | 98 / 100 attempts completed |
+| **SUS score** | **76.5 / 100** overall |
+| **Deck format** | 12 slides · 16:9 · Arabic RTL |
+| **Outputs** | Standalone HTML · native PPTX |
+| **Status** | Final HTML + PPTX · comparison assets included |
 
-## بنية المشروع
+---
+
+## What this presentation is
+
+The deck reports a complete usability study of the Kahoot Android application. It is not a template: every number, table, chart, and conclusion is derived from the study data in `data/`.
+
+The presentation covers:
+
+- the application and its main flows;
+- the two participant groups;
+- the five testing tasks and what each task measures;
+- per-participant results for both groups;
+- completion, time, error, assistance, and SUS analysis;
+- observed problems, recommendations, and a final comparison.
+
+---
+
+## The 12 slides
+
+| # | Slide | Content |
+|---|---|---|
+| 01 | **Cover** | Arabic title, Kahoot wordmark, study subtitle |
+| 02 | **Inside the App** | Five real Android screenshots: home, discover, join, create, library |
+| 03 | **About the App** | What Kahoot is + four core app capabilities |
+| 04 | **Participants** | High-school vs middle-school cards with age, completion, and SUS |
+| 05 | **Methodology** | Seven-step protocol + timing and timeout rules |
+| 06 | **Testing Tasks** | Five tasks with scenario, step-by-step actions, and measured aspect |
+| 07 | **Results — High School** | Time, completion, errors, and SUS for all 13 participants |
+| 08 | **Results — Middle School** | Time, completion, errors, and SUS for all 7 participants |
+| 09 | **Analysis Dashboard** | Unified completion, time, error, and key-findings view |
+| 10 | **SUS & Feedback** | SUS scores and qualitative observations |
+| 11 | **Problems & Conclusion** | Observed problems, recommendations, and group comparison |
+| 12 | **Team** | Project team credits |
+
+---
+
+## Selected slides — HTML version
+
+<table>
+<tr>
+<td width="50%">
+  <img src="previews/html/slide-01.png" alt="Slide 1 — Cover">
+  <br><sub><b>01 · Cover</b> — Arabic title and Kahoot identity</sub>
+</td>
+<td width="50%">
+  <img src="previews/html/slide-02.png" alt="Slide 2 — Inside the app">
+  <br><sub><b>02 · Inside the App</b> — real Android screenshots</sub>
+</td>
+</tr>
+<tr>
+<td width="50%">
+  <img src="previews/html/slide-04.png" alt="Slide 4 — Participants">
+  <br><sub><b>04 · Participants</b> — high-school vs middle-school</sub>
+</td>
+<td width="50%">
+  <img src="previews/html/slide-06.png" alt="Slide 6 — Testing tasks">
+  <br><sub><b>06 · Testing Tasks</b> — scenario, steps, and measures</sub>
+</td>
+</tr>
+<tr>
+<td width="50%">
+  <img src="previews/html/slide-07.png" alt="Slide 7 — High-school results">
+  <br><sub><b>07 · Results</b> — per-participant result table</sub>
+</td>
+<td width="50%">
+  <img src="previews/html/slide-09.png" alt="Slide 9 — Analysis dashboard">
+  <br><sub><b>09 · Analysis</b> — completion, time, and errors</sub>
+</td>
+</tr>
+<tr>
+<td width="50%">
+  <img src="previews/html/slide-10.png" alt="Slide 10 — SUS">
+  <br><sub><b>10 · SUS</b> — usability score and observations</sub>
+</td>
+<td width="50%">
+  <img src="previews/html/slide-12.png" alt="Slide 12 — Team">
+  <br><sub><b>12 · Team</b> — project credits</sub>
+</td>
+</tr>
+</table>
+
+---
+
+## Results snapshot
+
+| Metric | High School | Middle School |
+|---|---:|---:|
+| Participants | 13 | 7 |
+| Age range | 15–18 | 12–14 |
+| Average age | 16.2 | 13.3 |
+| Completion rate | 98.5% | 97.1% |
+| Completed / incomplete | 64 / 1 | 34 / 1 |
+| Total errors | 8 | 14 |
+| Assistance requests | 8 | 11 |
+| SUS score | **84.4** | **61.8** |
+
+**Overall:** 98 / 100 attempts completed · SUS **76.5**.
+
+The most frequent issue was a wrong path during search/quiz selection (**9 cases**), followed by difficulty finding the library/reports section (**9 cases across both groups**).
+
+---
+
+## Final deliverables
+
+| File | Description |
+|---|---|
+| [`final/kahoot-usability-presentation-final.html`](final/kahoot-usability-presentation-final.html) | Final standalone HTML deck (works offline) |
+| [`final/kahoot-usability-presentation-final.pptx`](final/kahoot-usability-presentation-final.pptx) | Final native PowerPoint deck |
+| [`comparison/comparison-montage.png`](comparison/comparison-montage.png) | HTML vs PPTX comparison sheet, all 12 slides |
+| [`comparison/side-by-side/`](comparison/side-by-side/) | One comparison image per slide |
+| [`comparison/README.md`](comparison/README.md) | Comparison notes and corrections |
+
+The HTML deck is the design source of truth. The PowerPoint was corrected against it and verified slide-by-slide.
+
+---
+
+## Project structure
 
 ```text
-├── kahoot-usability-presentation.html   # الناتج: HTML مستقل (مبني — لا تعدّله يدوياً)
-├── kahoot-usability-presentation.pptx   # الناتج: PPTX قابل للتحرير
-├── data/                                # ★ مصدر الحقيقة الوحيد — أدخل بياناتك هنا
-│   ├── participants.json  ├── tasks.json  ├── observations.json
-│   ├── sus-responses.json └── feedback.json
+.
+├── final/                               # Final HTML + PPTX deliverables
+├── comparison/                          # HTML vs PPTX screenshots and report
+├── data/                                # Study data (single source of truth)
+│   ├── participants.json
+│   ├── tasks.json
+│   ├── observations.json
+│   ├── sus-responses.json
+│   └── feedback.json
 ├── src/
-│   ├── design/tokens.mjs        # الألوان والخطوط والمقاسات (مشترك بين النسختين)
-│   ├── content/slides-html.mjs  # محتوى وتخطيط شرائح HTML
-│   ├── styles/presentation.css  # أنماط HTML
-│   ├── scripts/presentation.js  # التنقل والتفاعل
-│   ├── template.html            # قالب الصفحة
-│   └── data/metrics.json        # مخرجات طبقة الحساب (تتولد تلقائياً)
+│   ├── design/tokens.mjs                # Colors, fonts, dimensions
+│   ├── content/slides-html.mjs          # HTML slide content and layout
+│   ├── styles/presentation.css          # HTML design system
+│   ├── scripts/presentation.js          # Navigation and scaling
+│   ├── template.html                    # Standalone HTML shell
+│   └── data/metrics.json                # Generated metrics
 ├── scripts/
-│   ├── compute-metrics.mjs      # طبقة معالجة البيانات وحساب المؤشرات + SUS
-│   ├── build-html.mjs           # بناء HTML (تضمين الخطوط base64)
-│   ├── build-pptx.mjs           # بناء PPTX (PptxGenJS + عناصر أصلية)
-│   ├── qa-html.mjs              # فحص HTML في متصفح حقيقي
-│   └── *.py                     # أدوات OpenAI slides skill: عرض/فحص الشرائح
-├── pptx/pptxgenjs_helpers/      # مكتبات مساعدة من OpenAI slides skill
-├── assets/fonts/                # Thmanyah Sans + IBM Plex Sans Arabic + Inter (محلية)
-├── assets/logos/                # شعار Kahoot (SVG للـHTML + PNG للـPPTX بألوان الهوية)
-├── assets/screenshots/          # لقطات التطبيق (أصلية + نسخ web مضمّنة في HTML)
-├── previews/                    # صور شرائح HTML وPPTX + Montage
-└── .tools/ + .venv/             # LibreOffice محمول + بيئة Python معزولة (للبناء فقط)
+│   ├── compute-metrics.mjs              # Study metrics + SUS calculation
+│   ├── build-html.mjs                   # Offline HTML build
+│   ├── build-pptx.mjs                   # Native PPTX build
+│   ├── qa-html.mjs                      # Browser QA, offline checks
+│   └── *.py                             # Render / overflow / font tools
+├── assets/
+│   ├── fonts/                           # Thmanyah Sans · IBM Plex Sans Arabic · Inter
+│   ├── logos/                           # Kahoot wordmark and icon
+│   └── screenshots/                     # Real Android app screenshots
+├── previews/                            # Slide renders and montages
+└── .tools/ + .venv/                     # Portable LibreOffice + Python venv (ignored)
 ```
 
-## إعادة البناء
+---
+
+## Data pipeline
+
+```text
+data/*.json
+    │
+    ▼
+scripts/compute-metrics.mjs
+    │
+    ├── completion rates · average times · errors · assistance
+    ├── per-participant results
+    ├── top error types
+    └── SUS scores
+    │
+    ▼
+src/data/metrics.json
+    │
+    ├── scripts/build-html.mjs ──► final HTML
+    └── scripts/build-pptx.mjs ──► final PPTX
+```
+
+All figures are computed from the study data. No values are hard-coded into the slides.
+
+---
+
+## Build & QA
 
 ```bash
-pnpm install          # مرة واحدة (pptxgenjs + playwright-core للفحص)
-pnpm build            # = compute-metrics + build:html + build:pptx
+pnpm install          # once
+pnpm build            # compute metrics + HTML + PPTX
+pnpm build:html       # HTML only
+pnpm build:pptx       # PPTX only
+
+node scripts/qa-html.mjs
 ```
 
-ثم راجع `DATA-ENTRY.md` لصيغة كل ملف بيانات. تفاصيل بيئة العرض والفحص في `QA-REPORT.md`.
+Validation performed:
 
-## ما يحتاج تعبئة يدوية
+- HTML: 12 slides, RTL navigation, embedded fonts, zero overflow, zero console errors, fully offline.
+- PPTX: 12 slides, native editable tables/charts/text, no overflow, no missing or substituted fonts.
+- Comparison: one side-by-side screenshot per slide.
 
-- `tasks.json`: الوقت المعياري لكل مهمة (لم يُسجل بعد؛ يظهر `—` في شريحة الأوقات).
-- اقتباسات المشاركين النصية واقتراحات التحسين (لم تُسجل في أداة التتبع).
-- مراجعة نصوص المشكلات والتوصيات في الشريحة 11 والتأكد من مطابقتها لتفسير الفريق.
+---
 
-## الأدوات والمكتبات
+## Design system
 
-| الغرض | الأداة |
+| Element | Choice |
 |---|---|
-| بناء PPTX | PptxGenJS 4 + OpenAI **slides skill** (helpers + render/validation scripts) |
-| بناء HTML | Node.js (ESM) — توليد ملف مستقل بلا أي اعتماد خارجي وقت العرض |
-| الخطوط | Thmanyah Sans (عناوين عربية) · IBM Plex Sans Arabic (نصوص) · Inter (إنجليزي/أرقام) |
-| عرض PPTX وفحصه | LibreOffice 26.8 محمول داخل `.tools` + Poppler + سكربتات المهارة (overflow/fonts) |
-| فحص HTML | playwright-core + Chromium محلي (Helium) — تنقل/خطوط/أخطاء/عمل دون إنترنت |
-| Python (للبناء فقط) | بيئة `.venv` معزولة: Pillow · pdf2image · python-pptx · numpy |
+| Theme | Kahoot × Editorial |
+| Primary | `#46178F` |
+| Deep purple | `#250B50` |
+| Accent | `#FF3355` |
+| Light background | `#F6F4FA` |
+| Arabic headings | Thmanyah Sans |
+| Arabic body | IBM Plex Sans Arabic |
+| Latin / numbers | Inter |
+| Layout | 16:9 · RTL |
 
-**ملاحظة الخطوط في PPTX:** لضمان ظهور التصميم كما هو على جهاز العرض، ثبّت الخطوط من `assets/fonts` (ملفات OTF/TTF) على الجهاز، وإلا استبدلها PowerPoint بخطوط نظام بديلة مع بقاء المحتوى قابلاً للتحرير.
+---
+
+## Notes
+
+- App screenshots are real captures from the Android app used in the study.
+- No participant photos are included.
+- Standard task times were not recorded in the tracker, so the standard-time column is intentionally left blank in the time analysis.
+- The comparison report documents the only intentional PPTX adaptation: task steps use native numbered lines instead of HTML chips, while content and order remain identical.
